@@ -60,7 +60,7 @@ export default function Onboarding({ navigation }) {
         <Button
           onPress={() => handleOnboarding(onboardingInputs)}
           title="Next"
-          color="#cbd2d9"
+          color="#495e57"
           accessibilityLabel="Go next to profile view"
           disabled={!(isNameValid && isEmailValid)}
         />
